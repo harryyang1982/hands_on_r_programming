@@ -23,7 +23,7 @@ int
 text
 
 sum(int)
-sum(text)
+#sum(text)
 
 ### Doubles
 

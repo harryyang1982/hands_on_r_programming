@@ -21,7 +21,7 @@ deck[1:2, 1, drop = F]
 deck[-1, 1:3]
 deck[-(2:52), 1:3]
 
-deck[-c(-1, 1), 1]
+# deck[-c(-1, 1), 1]
 
 ### Zero
 
@@ -81,7 +81,7 @@ median(deck$value)
 lst <- list(numbers = c(1, 2), logical = T, strings = c("a", "b", "c"))
 lst
 lst[1]
-sum(lst[1])
+#sum(lst[1])
 lst$numbers
 sum(lst$numbers)
 
