@@ -80,7 +80,7 @@ show_env()
 deal <- function() {
   deck[1, ]
 }
-deal(deck)
+# deal(deck)
 
 environment(deal)
 deal()
